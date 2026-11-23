@@ -1,0 +1,11 @@
+{
+  "note": "Fictional sample traffic for the demo: one month of gateway logs for an imaginary SaaS team. Not real customer data.",
+  "entries": [
+    { "id": "t-summ", "task": "ticket summarization", "model": "frontier-x", "requestsPerDay": 4200, "avgTokens": 900, "costPer1k": 0.005, "variance": "low", "example": "Summarize ticket #4821: customer reports double charge after plan upgrade." },
+    { "id": "t-refund", "task": "refund reply drafting", "model": "frontier-x", "requestsPerDay": 1500, "avgTokens": 700, "costPer1k": 0.005, "variance": "low", "example": "Draft a warm, short reply approving the refund and apologizing for the delay." },
+    { "id": "t-sql", "task": "sql assist", "model": "frontier-x", "requestsPerDay": 300, "avgTokens": 1400, "costPer1k": 0.005, "variance": "high", "example": "Why does this join double count orders after the refunds migration?" },
+    { "id": "t-notes", "task": "release notes", "model": "frontier-x", "requestsPerDay": 80, "avgTokens": 2200, "costPer1k": 0.005, "variance": "medium", "example": "Turn these 14 merged PR titles into user-facing release notes." },
+    { "id": "t-sent", "task": "sentiment tagging", "model": "frontier-x", "requestsPerDay": 9000, "avgTokens": 250, "costPer1k": 0.005, "variance": "low", "example": "Tag this review as positive, neutral or negative with one reason." },
+    { "id": "t-search", "task": "semantic search rerank", "model": "frontier-x", "requestsPerDay": 5200, "avgTokens": 600, "costPer1k": 0.005, "variance": "medium", "example": "Rerank these 20 help articles for the query 'change invoice email'." }
+  ]
+}
